@@ -10,23 +10,33 @@
 <body>
 <header class="header">
     <img src="images/logo.png" alt="Logo PetGuard" class="logo">
+    <div class="description">
+        <p>Wielofunkcyjna obroża, która dba o codzienną wygodę twojego zwierzaka!</p>
+    </div>
 </header>
 <main>
-    <div>
-        <p>Wielofunkcyjna obroża, która dba o codzienną wygode twojego zwierzaka!</p>
-    </div>
     <section class="features">
         <h2>Najważniejsze funkcje</h2>
-        <ul>
-            <li>Monitorowanie zdrowia i aktywności twojego pupila - m.in. pomiar tętna, temperatury ciała czy saturacji.</li>
-            <li>Lokalizacja GPS pozwoli Ci na precyzyjne śledzenie zwierzaka!</li>
-            <li>Mapowanie ulubionych tras, a dodatkowo propozycje najlepszych tras spacerowych dla kondycji twojego psa!</li>
-            <li>Przypomnienia o wizytach u twojego weterynarza!</li>
-            <li>A te i wiele innych funkcji dbających o zwierzę znajdziesz tylko w naszej aplikacji mobilnej w twoim telefonie - wszystko zawsze pod ręką!</li>
-        </ul>
+        <div class="feature-grid">
+            <div class="feature-tile">
+                <p>Monitorowanie zdrowia i aktywności twojego pupila - m.in. pomiar tętna, temperatury ciała czy saturacji.</p>
+            </div>
+            <div class="feature-tile">
+                <p>Lokalizacja GPS pozwoli Ci na precyzyjne śledzenie zwierzaka!</p>
+            </div>
+            <div class="feature-tile">
+                <p>Mapowanie ulubionych tras, a dodatkowo propozycje najlepszych tras spacerowych dla kondycji twojego psa!</p>
+            </div>
+            <div class="feature-tile">
+                <p>Przypomnienia o wizytach u twojego weterynarza!</p>
+            </div>
+            <div class="feature-tile">
+                <p>A te i wiele innych funkcji dbających o zwierzę znajdziesz tylko w naszej aplikacji mobilnej w twoim telefonie - wszystko zawsze pod ręką!</p>
+            </div>
+        </div>
     </section>
+
     <section class="gallery">
-        <h2>Galeria Produktu</h2>
         <div class="slider-container">
             <button class="arrow left-arrow" onclick="changeSlide(-1)">&#8249;</button>
             <img id="slider-image" src="images/obroza1.jpg" alt="Obroża widok 1">
