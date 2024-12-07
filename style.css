@@ -2,23 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    /*background-color: #f9f9f9;*/
+    /*color: #333;*/
 }
 
 .header {
     text-align: center;
     padding: 20px;
-    background-color: #0077cc;
-    color: white;
+    background-color: #ffccff;
+    color: black;
     /*display: flex;*/
     /*flex-direction: column;*/
     /*justify-content: center;*/
 }
 
 .logo {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .features, .gallery {
@@ -46,8 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    background-color: #f0f0f0;
+    height: 530px;
+    /*background-color: #f0f0f0;*/
     border-radius: 8px;
     overflow: hidden;
 }
@@ -63,11 +63,11 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: white;
+    color: black;
     border: none;
     padding: 10px;
-    font-size: 24px;
+    font-size: 100px;
     cursor: pointer;
     border-radius: 50%;
     z-index: 1;
@@ -82,13 +82,13 @@ body {
 }
 
 .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 110px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #0077cc;
-    color: white;
+    background-color: #6667AB;
+    color: wheat;
     margin-top: 20px;
 }
